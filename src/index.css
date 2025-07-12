@@ -8,35 +8,36 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* AgentOrchestra Color System */
+    --primary: 204 70% 53%;        /* #3498db - Bright blue */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 48 89% 50%;       /* #f1c40f - Vibrant orange */
+    --secondary-foreground: 0 0% 20%;
+    
+    --accent: 145 63% 49%;         /* #2ecc71 - Fresh green */
+    --accent-foreground: 0 0% 100%;
+    
+    --background: 0 0% 98%;        /* #f9f9f9 - Clean white */
+    --foreground: 0 0% 20%;        /* #333333 - Dark gray */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 94%;
+    --ring: 204 70% 53%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
